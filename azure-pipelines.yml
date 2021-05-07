@@ -25,17 +25,12 @@ parameters:
   - "SLES 15 SP2"
 
 - name: sid
-  displayName: HANA System ID
+  displayName: SAP System ID
   type: string
   default: ""
 
-- name: nr
-  displayName: HANA Instance Number (00-99)
-  type: string
-  default: "00"
-
 - name: vmname
-  displayName: HANA Server Name
+  displayName: SAP Server Name
   type: string
   default: ""
 

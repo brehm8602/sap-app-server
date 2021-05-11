@@ -84,5 +84,5 @@ steps:
     location: 'Germany West Central'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/dhartenstein82/sap-app-server/main/azuredeploy.json'
-    overrideParameters: '-adminUsername "$(adminuser)" -vmNameInput "${{ parameters.vmname }}" -sapSystemSize "${{ parameters.size }}" -osType "${{ parameters.os }}" -adminPasswordOrKey "$(pw)" -subnetId "${{ parameters.subnet }}"'
+    overrideParameters: '-adminUsername "$(adminuser)" -vmNameInput "${{ parameters.vmname }}" -sapSystemId "${{ parameters.sid }}" -sapSystemSize "${{ parameters.size }}" -osType "${{ parameters.os }}" -adminPasswordOrKey "$(pw)" -subnetId "${{ parameters.subnet }}"'
     deploymentMode: 'Complete'

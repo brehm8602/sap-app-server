@@ -22,7 +22,7 @@
       "allowedValues": [
         "RHEL 7",
         "RHEL 8",
-        "SLES 12"
+        "D-RHEL8.1"
       ],
       "defaultValue": "RHEL 8",
       "metadata": {
@@ -120,11 +120,10 @@
         "publisher": "RedHat",
         "OSType": "Linux"
       },
-      "SLES 12": {
-        "sku": "gen2",
-        "offer": "sles-sap-12-sp5",
-        "publisher": "SUSE",
-        "OSType": "Linux"
+      "D-RHEL8.1": {
+        "OSType": "Linux",
+        "publisher": "RedHat",
+        "id": "/subscriptions/062ab761-8f9e-4a10-9d08-25f39130c48a/resourceGroups/rg-shared-prod-gwc/providers/Microsoft.Compute/images/D-RHEL8.1-latest"
       }
     },
     "internalOSType": "[variables('images')[parameters('osType')].OSType]",

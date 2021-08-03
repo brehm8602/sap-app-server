@@ -55,7 +55,7 @@ parameters:
 - name: resourcegroup
   displayName: Resource Group
   type: string
-  default: "rg-vm-[servername]-gwc"
+  default: "rg-vm-ulsapen9-gwc"
 
 trigger:
   none

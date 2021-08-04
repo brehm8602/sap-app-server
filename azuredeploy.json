@@ -121,6 +121,7 @@
         "OSType": "Linux"
       },
       "D-RHEL8.1": {
+        "sku": "d81sap-gen1",
         "OSType": "Linux",
         "offer": "DEKRA-SAP",
         "publisher": "RedHat",

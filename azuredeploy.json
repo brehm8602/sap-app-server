@@ -122,6 +122,7 @@
       },
       "D-RHEL8.1": {
         "OSType": "Linux",
+        "offer": "DEKRA-SAP",
         "publisher": "RedHat",
         "id": "/subscriptions/062ab761-8f9e-4a10-9d08-25f39130c48a/resourceGroups/rg-shared-prod-gwc/providers/Microsoft.Compute/images/D-RHEL8.1-latest"
       }

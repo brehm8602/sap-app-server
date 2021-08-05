@@ -121,11 +121,11 @@
         "OSType": "Linux"
       },
       "D-RHEL8.1": {
-        "sku": "d81sap-gen1",
+        "sku": "DEKRA",
         "OSType": "Linux",
-        "offer": "DEKRA-SAP",
-        "publisher": "RedHat",
-        "id": "/subscriptions/062ab761-8f9e-4a10-9d08-25f39130c48a/resourceGroups/rg-shared-prod-gwc/providers/Microsoft.Compute/images/D-RHEL8.1-latest"
+        "offer": "DEKRA",
+        "publisher": "DEKRA",
+        "id": "/subscriptions/062ab761-8f9e-4a10-9d08-25f39130c48a/resourceGroups/rg-shared-prod-gwc/providers/Microsoft.Compute/galleries/DEKRA_RHEL8_SAP/images/DEKRA-CUSTOM/versions/1.0.0"
       }
     },
     "internalOSType": "[variables('images')[parameters('osType')].OSType]",

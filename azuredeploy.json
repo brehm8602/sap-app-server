@@ -121,6 +121,8 @@
         "OSType": "Linux"
       },
       "D-RHEL8.1": {
+        "publisher": "DEKRA",
+        "OSType": "Linux",
         "id": "/subscriptions/062ab761-8f9e-4a10-9d08-25f39130c48a/resourceGroups/rg-shared-prod-gwc/providers/Microsoft.Compute/galleries/DEKRA_RHEL8_SAP/images/DEKRA-CUSTOM/versions/1.0.0"
       }
     },
